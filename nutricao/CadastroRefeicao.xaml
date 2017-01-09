@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="nutricao.CadastroRefeicao" Title="Cadastro de refeição">
+	<ContentPage.Content>
+		<StackLayout Padding="25">
+			
+
+			<Label Text="Descrição" />
+			<Entry x:Name="entDescricao" Placeholder="Ex. Filé de Frango"/>
+			
+			<StackLayout Orientation="Horizontal">
+				<Label Text="Calorias:" />
+				<Label Text="10" x:Name="lblCalorias"/>
+			</StackLayout>
+			<Slider x:Name="stpCalorias" Minimum="0" Maximum="1000" ValueChanged="AtualizaContador"/>
+
+
+			<Button Text="Salvar" Clicked="SalvaRefeicao"/>
+			<Button Text="Abrir lista" Clicked="MostraLista"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
