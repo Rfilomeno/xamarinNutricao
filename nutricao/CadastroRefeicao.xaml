@@ -15,7 +15,7 @@
 
 
 			<Button Text="Salvar" Clicked="SalvaRefeicao"/>
-			<Button Text="Abrir lista" Clicked="MostraLista"/>
+
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

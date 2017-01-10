@@ -1,14 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Collections.ObjectModel;
 using Xamarin.Forms;
 
 namespace nutricao
 {
 	public partial class CadastroRefeicao : ContentPage
 	{
-		public CadastroRefeicao()
+		public ObservableCollection<Refeicao> Refeicoes { get; set;}
+
+		
+		
+		public CadastroRefeicao(ObservableCollection<Refeicao> refeicoes)
 		{
+			Refeicoes = refeicoes;
 			InitializeComponent();
 		}
 		public void AtualizaContador(Object sender, EventArgs e)
@@ -20,8 +25,13 @@ namespace nutricao
 		{
 			String descricao = entDescricao.Text;
 			double valor = stpCalorias.Value;
+
+			Refeicao refeicao = new Refeicao(descricao, valor);
+
 			String msg = "A Refeição " + descricao + " de " + valor + " Calorias, foi salva com sucesso!";
 
+
+			Refeicoes.Add(refeicao);
 			DisplayAlert("Salvar Refeição", msg, "Ok");
 			clear();
 		}
@@ -32,8 +42,8 @@ namespace nutricao
 		}
 		public void MostraLista(object sender, EventArgs e)
 		{
-			ListaRefeicoes tela = new ListaRefeicoes();
-			Navigation.PushAsync(tela);
+			//ListaRefeicoes tela = new ListaRefeicoes();
+			//Navigation.PushAsync(tela);
 		}
 	}
 }

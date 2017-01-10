@@ -52,6 +52,7 @@
       <DependentUpon>ListaRefeicoes.xaml</DependentUpon>
     </Compile>
     <Compile Include="HomeTabbedPage.cs" />
+    <Compile Include="Refeicao.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
