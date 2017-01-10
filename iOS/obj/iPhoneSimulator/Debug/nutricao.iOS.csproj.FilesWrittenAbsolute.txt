@@ -1,0 +1,15 @@
+/Users/rodrigofilomeno/Projects/nutricao/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/rodrigofilomeno/Projects/nutricao/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/rodrigofilomeno/Projects/nutricao/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/rodrigofilomeno/Projects/nutricao/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/rodrigofilomeno/Projects/nutricao/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/rodrigofilomeno/Projects/nutricao/iOS/bin/iPhoneSimulator/Debug/nutricao.iOS.exe.mdb
+/Users/rodrigofilomeno/Projects/nutricao/iOS/bin/iPhoneSimulator/Debug/nutricao.iOS.exe
+/Users/rodrigofilomeno/Projects/nutricao/iOS/obj/iPhoneSimulator/Debug/nutricao.iOS.exe
+/Users/rodrigofilomeno/Projects/nutricao/iOS/obj/iPhoneSimulator/Debug/nutricao.iOS.exe.mdb
+/Users/rodrigofilomeno/Projects/nutricao/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/rodrigofilomeno/Projects/nutricao/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/rodrigofilomeno/Projects/nutricao/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/rodrigofilomeno/Projects/nutricao/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/rodrigofilomeno/Projects/nutricao/iOS/bin/iPhoneSimulator/Debug/nutricao.dll
+/Users/rodrigofilomeno/Projects/nutricao/iOS/bin/iPhoneSimulator/Debug/nutricao.dll.mdb
