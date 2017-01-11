@@ -7,13 +7,13 @@ namespace nutricao
 {
 	public partial class CadastroRefeicao : ContentPage
 	{
-		public ObservableCollection<Refeicao> Refeicoes { get; set;}
+		
 		private RefeicaoDAO dao;
 		
 		
-		public CadastroRefeicao(ObservableCollection<Refeicao> refeicoes, RefeicaoDAO dao)
+		public CadastroRefeicao(RefeicaoDAO dao)
 		{
-			Refeicoes = refeicoes;
+			
 			this.dao = dao;
 			InitializeComponent();
 		}
@@ -33,7 +33,7 @@ namespace nutricao
 			String msg = "A Refeição " + descricao + " de " + valor + " Calorias, foi salva com sucesso!";
 
 
-			Refeicoes.Add(refeicao);
+
 			DisplayAlert("Salvar Refeição", msg, "Ok");
 			clear();
 		}

@@ -8,13 +8,13 @@ namespace nutricao
 	public partial class ListaRefeicoes : ContentPage
 	{
 		public ObservableCollection<Refeicao> Refeicoes { get; set;}
-
-		public ListaRefeicoes(ObservableCollection<Refeicao> refeicoes)
+		private RefeicaoDAO dao;
+		public ListaRefeicoes(RefeicaoDAO dao)
 		{
-			
 
+			this.dao = dao;
 			BindingContext = this;
-			Refeicoes = refeicoes;
+			Refeicoes = dao.Lista;
 			InitializeComponent();
 		}
 		public async void AcaoItem(object sender, ItemTappedEventArgs e)
@@ -23,7 +23,7 @@ namespace nutricao
 			var resposta = await DisplayAlert("Remover Item", "Você tem certeza que deseja remover a refeição " + refeicao.Descricao, "Sim", "Não");
 			if (resposta)
 			{
-				Refeicoes.Remove(refeicao);
+				dao.Remove(refeicao);
 				await DisplayAlert("Remover item", "Refeição removida com sucesso!", "ok");
 			}
 		}
