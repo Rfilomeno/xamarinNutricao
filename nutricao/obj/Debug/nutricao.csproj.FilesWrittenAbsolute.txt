@@ -16,3 +16,7 @@
 /Users/rodrigofilomeno/Projects/nutricao/nutricao/obj/Debug/nutricao.ListaRefeicoes.xaml
 /Users/rodrigofilomeno/Projects/nutricao/nutricao/obj/Debug/nutricao.CadastroRefeicao.xaml.g.cs
 /Users/rodrigofilomeno/Projects/nutricao/nutricao/obj/Debug/nutricao.ListaRefeicoes.xaml.g.cs
+/Users/rodrigofilomeno/Projects/nutricao/nutricao/bin/Debug/SQLitePCLRaw.core.dll
+/Users/rodrigofilomeno/Projects/nutricao/nutricao/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/rodrigofilomeno/Projects/nutricao/nutricao/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/rodrigofilomeno/Projects/nutricao/nutricao/bin/Debug/SQLite-net.dll

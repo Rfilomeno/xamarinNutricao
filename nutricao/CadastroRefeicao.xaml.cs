@@ -8,12 +8,13 @@ namespace nutricao
 	public partial class CadastroRefeicao : ContentPage
 	{
 		public ObservableCollection<Refeicao> Refeicoes { get; set;}
-
+		private RefeicaoDAO dao;
 		
 		
-		public CadastroRefeicao(ObservableCollection<Refeicao> refeicoes)
+		public CadastroRefeicao(ObservableCollection<Refeicao> refeicoes, RefeicaoDAO dao)
 		{
 			Refeicoes = refeicoes;
+			this.dao = dao;
 			InitializeComponent();
 		}
 		public void AtualizaContador(Object sender, EventArgs e)
@@ -25,8 +26,9 @@ namespace nutricao
 		{
 			String descricao = entDescricao.Text;
 			double valor = stpCalorias.Value;
-
 			Refeicao refeicao = new Refeicao(descricao, valor);
+			dao.Salvar(refeicao);
+
 
 			String msg = "A Refeição " + descricao + " de " + valor + " Calorias, foi salva com sucesso!";
 
