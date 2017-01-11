@@ -113,6 +113,12 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"SQLitePCLRaw.core.dll",
+		"SQLitePCLRaw.lib.e_sqlite3.dll",
+		"SQLitePCLRaw.provider.e_sqlite3.dll",
+		"SQLitePCLRaw.batteries_green.dll",
+		"SQLitePCLRaw.batteries_v2.dll",
+		"SQLite-net.dll",
 		"nutricao.dll",
 		"System.Threading.dll",
 		"System.Collections.dll",
@@ -132,6 +138,7 @@ class MonoPackageManager_Resources {
 		"System.IO.dll",
 		"System.Dynamic.Runtime.dll",
 		"System.Text.RegularExpressions.dll",
+		"System.Resources.ResourceManager.dll",
 		"System.Diagnostics.Tools.dll",
 	};
 	public static final String[] Dependencies = new String[]{

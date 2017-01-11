@@ -30,3 +30,9 @@
 /Users/rodrigofilomeno/Projects/nutricao/Droid/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/rodrigofilomeno/Projects/nutricao/Droid/bin/Debug/nutricao.dll
 /Users/rodrigofilomeno/Projects/nutricao/Droid/bin/Debug/nutricao.dll.mdb
+/Users/rodrigofilomeno/Projects/nutricao/Droid/bin/Debug/SQLitePCLRaw.core.dll
+/Users/rodrigofilomeno/Projects/nutricao/Droid/bin/Debug/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/rodrigofilomeno/Projects/nutricao/Droid/bin/Debug/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/rodrigofilomeno/Projects/nutricao/Droid/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/rodrigofilomeno/Projects/nutricao/Droid/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/rodrigofilomeno/Projects/nutricao/Droid/bin/Debug/SQLite-net.dll

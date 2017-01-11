@@ -3,11 +3,12 @@ using SQLite;
 using System.IO;
 using Xamarin.Forms;
 using Nutricao.Droid;
+using nutricao;
 
 [assembly: Dependency(typeof(SQLite_android))]
 namespace Nutricao.Droid
 {
-	public class SQLite_android : ISqLite
+	public class SQLite_android : ISqlite
 	{
 		public SQLite_android()
 		{

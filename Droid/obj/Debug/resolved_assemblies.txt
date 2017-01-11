@@ -18,6 +18,12 @@
 /Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll
 /Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.dll
 /Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll
+/Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/SQLitePCLRaw.core.dll
+/Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/SQLitePCLRaw.batteries_green.dll
+/Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/SQLitePCLRaw.batteries_v2.dll
+/Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/SQLite-net.dll
 /Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/nutricao.dll
 /Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/mscorlib.dll
 /Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/System.Net.Http.dll
@@ -42,4 +48,5 @@
 /Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/System.IO.dll
 /Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/System.Dynamic.Runtime.dll
 /Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/System.Text.RegularExpressions.dll
+/Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/System.Resources.ResourceManager.dll
 /Users/rodrigofilomeno/Projects/nutricao/Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll
