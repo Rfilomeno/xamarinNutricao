@@ -9,7 +9,6 @@ namespace nutricao
 	{
 		private String descricao;
 		private double calorias;
-		private RefeicaoDAO dao;
 		private ContentPage page;
 		public ICommand SalvaRefeicao { get; protected set; }
 

@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{197698BA-F153-471D-9107-9A7A9C93B77A}|Default">
   <MonoDevelop.Ide.ItemProperties.nutricao.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.86A18421-07D3-4AB4-9728-D221CC22A3C4" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="nutricao/View/CadastroRefeicao.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="nutricao/ViewModel/CadastroRefeicaoViewModel.cs">
     <Files>
-      <File FileName="nutricao/ViewModel/CadastroRefeicaoViewModel.cs" Line="28" Column="3" />
+      <File FileName="nutricao/ViewModel/CadastroRefeicaoViewModel.cs" Line="25" Column="5" />
       <File FileName="nutricao/View/CadastroRefeicao.xaml.cs" Line="18" Column="24" />
-      <File FileName="nutricao/View/CadastroRefeicao.xaml" Line="8" Column="70" />
+      <File FileName="nutricao/View/CadastroRefeicao.xaml" Line="17" Column="59" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
