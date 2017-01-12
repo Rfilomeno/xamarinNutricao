@@ -1,10 +1,10 @@
-﻿<Properties StartupConfiguration="{29C65171-3C96-4FF2-87C2-4411AE3ACC3C}|Default">
+﻿<Properties StartupConfiguration="{197698BA-F153-471D-9107-9A7A9C93B77A}|Default">
   <MonoDevelop.Ide.ItemProperties.nutricao.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.86A18421-07D3-4AB4-9728-D221CC22A3C4" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="nutricao/Data/ISqlite.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="nutricao/View/CadastroRefeicao.xaml">
     <Files>
-      <File FileName="Droid/SQLite_android.cs" Line="10" Column="36" />
-      <File FileName="iOS/SQLite_ios.cs" Line="7" Column="35" />
-      <File FileName="nutricao/Data/ISqlite.cs" Line="1" Column="1" />
+      <File FileName="nutricao/ViewModel/CadastroRefeicaoViewModel.cs" Line="28" Column="3" />
+      <File FileName="nutricao/View/CadastroRefeicao.xaml.cs" Line="18" Column="24" />
+      <File FileName="nutricao/View/CadastroRefeicao.xaml" Line="8" Column="70" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

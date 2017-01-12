@@ -30,10 +30,10 @@
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
     <EmbeddedResource Include="nutricaoPage.xaml" />
-    <EmbeddedResource Include="CadastroRefeicao.xaml">
+    <EmbeddedResource Include="View\CadastroRefeicao.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListaRefeicoes.xaml">
+    <EmbeddedResource Include="View\ListaRefeicoes.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -45,16 +45,17 @@
       <DependentUpon>nutricaoPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CadastroRefeicao.xaml.cs">
-      <DependentUpon>CadastroRefeicao.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ListaRefeicoes.xaml.cs">
-      <DependentUpon>ListaRefeicoes.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="HomeTabbedPage.cs" />
-    <Compile Include="Refeicao.cs" />
     <Compile Include="Data\RefeicaoDAO.cs" />
     <Compile Include="Data\ISqlite.cs" />
+    <Compile Include="Model\Refeicao.cs" />
+    <Compile Include="View\CadastroRefeicao.xaml.cs">
+      <DependentUpon>CadastroRefeicao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\HomeTabbedPage.cs" />
+    <Compile Include="View\ListaRefeicoes.xaml.cs">
+      <DependentUpon>ListaRefeicoes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\CadastroRefeicaoViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -84,6 +85,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="View\" />
+    <Folder Include="Model\" />
+    <Folder Include="ViewModel\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.1.114\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.1.114\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
